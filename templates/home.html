@@ -1,0 +1,11 @@
+<h1>Piglatin Translator!</h1>
+
+<form action="{% url "translate" %}" >
+  <input type="text" name="original_text"/>
+  <br />
+  <br />
+  <input type="submit" value="Translate!" />
+</form>
+
+<br />
+<a href="{% url 'about' %}">Learn about the site!</a>
